@@ -1,0 +1,277 @@
+station_id,name,city,county,regional_office,latitude,longitude,elevation_m,elevation_ft,connect_date,disconnect_date,is_active,is_eto_station,ground_cover,source
+1,Fresno/F.S.U. USDA,Fresno,Fresno,South Central Region Office,36.814444,-119.73167,103.6,340.0,1982-06-07,1988-09-25,False,True,Grass,CIMIS
+2,FivePoints,Five Points,Fresno,South Central Region Office,36.336222,-120.11291,86.9,285.0,1982-06-07,,True,True,Grass,CIMIS
+3,Beach /Santa Cruz CO,Watsonville,Santa Cruz,South Central Region Office,36.880556,-121.79333,3.0,10.0,1982-05-30,1986-08-25,False,True,Grass,CIMIS
+4,Webb /Santa Cruz CO,Watsonville,Santa Cruz,South Central Region Office,36.9725,-121.72611,70.1,230.0,1982-05-30,1988-04-29,False,True,Grass,CIMIS
+5,Shafter,Shafter,Kern,South Central Region Office,35.532556,-119.28179,109.7,360.0,1982-06-01,,True,False,Grass,CIMIS
+6,Davis,Davis,Yolo,North Central Region Office,38.535694,-121.77636,18.3,60.0,1982-07-17,,True,True,Grass,CIMIS
+7,Firebaugh/Telles,Firebaugh,Fresno,South Central Region Office,36.851222,-120.59092,56.4,185.0,1982-09-22,,True,True,Grass,CIMIS
+8,Gerber,Gerber,Tehama,Northern Region Office,40.044053,-122.16551,76.2,250.0,1982-09-22,2014-08-14,False,True,Grass,CIMIS
+9,Lamont,LaMont,Kern,South Central Region Office,35.238056,-118.89444,123.7,406.0,1982-09-29,1989-04-10,False,True,Grass,CIMIS
+10,Bakersfield/Greenlee,Mettler Station,Kern,South Central Region Office,35.077083,-119.08213,121.9,400.0,1982-10-01,1986-04-16,False,True,Grass,CIMIS
+11,Bakersfield/Bonanza,Conner,Kern,South Central Region Office,35.160556,-119.18083,88.4,290.0,1982-09-29,1986-04-17,False,True,Grass,CIMIS
+12,Durham,Chico,Butte,Northern Region Office,39.608639,-121.82443,39.6,130.0,1982-10-19,2025-07-30,False,True,Grass,CIMIS
+13,Camino,Placerville,El Dorado,North Central Region Office,38.753136,-120.7336,847.3,2780.0,1982-10-19,,True,True,Grass,CIMIS
+14,Orland,Orland,Glenn,Northern Region Office,39.739444,-122.17139,71.6,235.0,1982-10-30,1987-04-21,False,True,Grass,CIMIS
+15,Stratford,Stratford,Kings,South Central Region Office,36.157972,-119.85143,58.8,193.0,1982-10-29,,True,True,Grass,CIMIS
+16,San Juan,Watsonville,Monterey,South Central Region Office,36.904722,-121.70306,13.4,44.0,1982-10-23,1995-08-24,False,True,Grass,CIMIS
+17,El Centro,Meloland,Imperial,Southern Region Office,32.846389,-115.44833,-26.2,-86.0,1982-11-08,1987-05-27,False,True,Grass,CIMIS
+18,Westmorland,Westmorland,Imperial,Southern Region Office,33.0775,-115.61389,-59.4,-195.0,1982-11-11,1986-04-09,False,True,Grass,CIMIS
+19,Castroville,Castroville,Monterey,South Central Region Office,36.768167,-121.77364,2.7,9.0,1982-11-18,2019-11-20,False,False,Grass,CIMIS
+20,Corcoran,Corcoran,Kings,South Central Region Office,36.040278,-119.57278,57.9,190.0,1982-11-22,1986-04-09,False,True,Grass,CIMIS
+21,Kettleman,Kettleman City,Kings,South Central Region Office,35.86775,-119.8949,103.6,340.0,1982-11-19,2017-09-01,False,True,Grass,CIMIS
+22,Caruthers,Laton,Kings,South Central Region Office,36.490278,-119.77917,72.5,238.0,1982-11-18,1988-06-06,False,True,Grass,CIMIS
+23,King City,King City,Monterey,South Central Region Office,36.174444,-121.11722,91.4,300.0,1982-11-19,1985-12-23,False,True,Grass,CIMIS
+24,Thermal,Thermal,Riverside,Southern Region Office,33.631111,-116.11194,-36.6,-120.0,1982-11-22,1986-03-03,False,True,Grass,CIMIS
+25,Rancho Mirage,Rancho Mirage,Riverside,Southern Region Office,33.764444,-116.42389,73.2,240.0,1982-11-22,1985-11-20,False,True,Grass,CIMIS
+26,Lost Hills,Lost Hills,Kern,Southern Region Office,35.505278,-119.68972,125.0,410.0,1982-11-29,1986-08-13,False,True,Grass,CIMIS
+27,Zamora,Woodland,Yolo,North Central Region Office,38.808758,-121.90754,15.2,50.0,1982-12-05,2006-01-20,False,True,Grass,CIMIS
+28,Soledad,Soledad,Monterey,South Central Region Office,36.4475,-121.36417,51.8,170.0,1983-01-04,1987-02-11,False,True,Grass,CIMIS
+29,Cantua Creek,Cantua Creek,Fresno,South Central Region Office,36.516389,-120.31444,83.8,275.0,1983-01-02,1985-07-23,False,True,Grass,CIMIS
+30,Nicolaus,Nicolaus,Sutter,North Central Region Office,38.8706,-121.54608,9.8,32.0,1983-01-03,2011-12-29,False,True,Grass,CIMIS
+31,McFarland/Kern Farms,McFarland,Kern,South Central Region Office,35.702722,-119.15355,146.3,480.0,1983-01-11,1993-03-08,False,True,Grass,CIMIS
+32,Colusa,Colusa,Colusa,Northern Region Office,39.226861,-122.0248,16.8,55.0,1983-01-13,2016-08-12,False,True,Grass,CIMIS
+33,Visalia,Visalia,Tulare,South Central Region Office,36.301056,-119.22453,106.7,350.0,1983-01-05,2007-03-01,False,True,Grass,CIMIS
+34,Rancho California,Rancho California,Riverside,Southern Region Office,33.488611,-117.19861,554.7,1820.0,1983-01-21,1986-11-25,False,True,Grass,CIMIS
+35,Bishop,Bishop,Inyo,Southern Region Office,37.358514,-118.40553,1271.0,4170.0,1983-02-04,,True,True,Grass,CIMIS
+36,Blythe,Blythe,Riverside,Southern Region Office,33.654722,-114.55806,82.3,270.0,1983-03-13,1988-08-12,False,True,Grass,CIMIS
+37,USDA Salinas,Salinas,Monterey,South Central Region Office,36.620556,-121.54528,36.6,120.0,1983-04-11,1992-07-27,False,True,Grass,CIMIS
+38,Santa Maria,Santa Maria,Santa Barbara,Southern Region Office,34.954444,-120.38417,82.3,270.0,1983-05-03,1999-04-27,False,True,Grass,CIMIS
+39,Parlier,Parlier,Fresno,South Central Region Office,36.597444,-119.50404,102.7,337.0,1983-05-23,,True,True,Grass,CIMIS
+40,Mendota/MuriettaUSDA,Mendota,Fresno,South Central Region Office,36.683333,-120.38722,57.0,187.0,1983-06-14,1992-04-15,False,True,Grass,CIMIS
+41,Calipatria/Mulberry,Calipatria,Imperial,Southern Region Office,33.042986,-115.41585,-33.5,-110.0,1983-07-17,,True,True,Grass,CIMIS
+42,Lodi,Lodi,San Joaquin,North Central Region Office,38.109444,-121.34611,7.0,23.0,1983-10-16,2001-01-18,False,True,Grass,CIMIS
+43,McArthur,Glenburn,Shasta,Northern Region Office,41.063767,-121.45602,1008.9,3310.0,1983-10-31,,True,True,Grass,CIMIS
+44,U.C. Riverside,Riverside,Riverside,Southern Region Office,33.964942,-117.33698,310.9,1020.0,1985-06-02,,True,True,Grass,CIMIS
+45,San Diego,San Diego,San Diego,Southern Region Office,32.786667,-117.13528,112.8,370.0,1985-06-09,1989-04-27,False,True,Grass,CIMIS
+46,MacDoel,MacDoel,Siskiyou,Northern Region Office,41.792222,-122.06361,1296.6,4254.0,1985-11-11,1986-06-11,False,True,Grass,CIMIS
+47,Brentwood,Brentwood,Contra Costa,North Central Region Office,37.928258,-121.6599,13.7,45.0,1985-11-18,,True,True,Grass,CIMIS
+48,Tulelake,Tulelake,Siskiyou,Northern Region Office,42.003333,-121.42667,1232.0,4042.0,1986-02-03,1993-09-30,False,True,Grass,CIMIS
+49,Oceanside,Oceanside,San Diego,Southern Region Office,33.255833,-117.31972,15.2,50.0,1986-03-11,2003-10-29,False,False,Grass,CIMIS
+50,Thermal,Thermal,Riverside,Southern Region Office,33.646389,-116.24167,-9.1,-30.0,1986-07-22,1999-01-11,False,True,Grass,CIMIS
+51,Healdsburg,Healdsburg,Sonoma,North Central Region Office,38.661906,-122.86946,54.9,180.0,1986-08-24,1994-03-28,False,True,Grass,CIMIS
+52,San Luis Obispo,San Luis Obispo,San Luis Obispo,Southern Region Office,35.305442,-120.66178,100.6,330.0,1986-04-02,,True,True,Grass,CIMIS
+53,Greenfield,Greenfield,Monterey,South Central Region Office,36.341111,-121.25694,82.3,270.0,1986-10-10,1991-10-23,False,True,Grass,CIMIS
+54,Blackwells Corner,Blackwells Corner,Kern,South Central Region Office,35.649861,-119.9593,214.9,705.0,1986-10-19,2021-10-18,False,False,Grass,CIMIS
+55,Palm Desert,Palm Desert,Riverside,Southern Region Office,33.730556,-116.3825,61.0,200.0,1987-05-26,1994-04-11,False,True,Grass,CIMIS
+56,Los Banos,Los Banos,Merced,South Central Region Office,37.096694,-120.7539,29.0,95.0,1988-06-28,2022-09-14,False,True,Grass,CIMIS
+57,Buntingville,Susanville,Lassen,Northern Region Office,40.289799,-120.433948,1220.7,4005.0,1986-06-22,2021-05-12,False,True,Grass,CIMIS
+58,Santa Paula,Santa Paula,Ventura,Southern Region Office,34.301667,-119.11889,53.3,175.0,1987-07-30,1991-02-15,False,True,Grass,CIMIS
+59,Tehachapi,Tehachapi,Kern,South Central Region Office,35.114167,-118.43861,1252.7,4110.0,1986-07-29,1990-08-23,False,True,Grass,CIMIS
+60,Barstow,Barstow,San Bernardino,Southern Region Office,34.903333,-117.115,664.5,2180.0,1986-11-20,1992-02-20,False,True,Grass,CIMIS
+61,Orland,Orland,Glenn,Northern Region Office,39.691822,-122.15351,60.4,198.0,1987-05-13,2010-05-26,False,False,Grass,CIMIS
+62,Temecula,Rancho California,Riverside,Southern Region Office,33.48665,-117.22827,432.8,1420.0,1986-11-25,2024-12-02,False,False,Grass,CIMIS
+63,Novato,Novato,Marin,North Central Region Office,38.121739,-122.54378,7.6,25.0,1986-07-01,2002-01-18,False,True,Grass,CIMIS
+64,Santa Ynez,Santa Ynez,Santa Barbara,Southern Region Office,34.583144,-120.07924,149.4,490.0,1986-11-21,,True,True,Grass,CIMIS
+65,Walnut Creek,Walnut Creek,Contra Costa,North Central Region Office,37.914392,-122.08226,134.1,440.0,1987-07-22,2002-03-08,False,True,Grass,CIMIS
+66,San Diego,San Diego,San Diego,Southern Region Office,32.733056,-117.13472,112.8,370.0,1989-04-27,2001-12-19,False,True,Grass,CIMIS
+67,Goleta,Santa Barbara,Santa Barbara,Southern Region Office,34.432222,-119.83889,9.1,30.0,1988-02-17,1993-04-07,False,True,Grass,CIMIS
+68,Seeley,Seeley,Imperial,Southern Region Office,32.759575,-115.73207,12.2,40.0,1987-05-29,2025-03-27,False,False,Grass,CIMIS
+69,San Jose,San Jose,Santa Clara,North Central Region Office,37.326189,-121.95182,38.1,125.0,1987-06-08,2002-11-22,False,True,Grass,CIMIS
+70,Manteca,Manteca,San Joaquin,North Central Region Office,37.834822,-121.22319,10.1,33.0,1987-11-12,,True,True,Grass,CIMIS
+71,Modesto,Modesto,Stanislaus,South Central Region Office,37.645222,-121.18776,10.7,35.0,1987-06-25,,True,True,Grass,CIMIS
+72,Palo Verde,Palo Verde,Imperial,Southern Region Office,33.3875,-114.7225,70.1,230.0,1987-09-08,2000-12-20,False,True,Alfalfa,CIMIS
+73,Hollywood Hills,Burbank,Los Angeles,Southern Region Office,34.147222,-118.31778,170.7,560.0,1988-03-04,1993-09-14,False,True,Grass,CIMIS
+74,Escondido,Escondido,San Diego,Southern Region Office,33.09,-116.98111,137.2,450.0,1988-04-26,1998-12-24,False,True,Grass,CIMIS
+75,Irvine,Irvine,Orange,Southern Region Office,33.68845,-117.72118,125.0,410.0,1987-10-07,,True,True,Grass,CIMIS
+76,Betteravia,Guadalupe,Santa Barbara,Southern Region Office,34.923889,-120.51167,48.8,160.0,1987-12-18,1993-07-01,False,True,Grass,CIMIS
+77,Oakville,Napa,Napa,North Central Region Office,38.428475,-122.41021,57.9,190.0,1989-03-01,,True,True,Grass,CIMIS
+78,Pomona,Pomona,Los Angeles,Southern Region Office,34.056589,-117.81307,222.5,730.0,1989-03-14,,True,True,Grass,CIMIS
+79,Angwin,St. Helena,Napa,North Central Region Office,38.555242,-122.42186,524.3,1720.0,1989-05-11,1996-12-27,False,True,Grass,CIMIS
+80,Fresno State,Fresno,Fresno,South Central Region Office,36.820833,-119.74231,103.3,339.0,1988-10-03,,True,True,Grass,CIMIS
+81,Shenandoah Valley,Plymouth,Amador,North Central Region Office,38.522697,-120.80507,472.4,1550.0,1990-05-11,2000-05-17,False,True,Grass,CIMIS
+82,Claremont,Claremont,Los Angeles,Southern Region Office,34.13,-117.69611,493.8,1620.0,1989-04-13,2007-09-26,False,True,Grass,CIMIS
+83,Santa Rosa,Santa Rosa,Sonoma,North Central Region Office,38.40355,-122.79993,24.4,80.0,1990-01-01,,True,True,Grass,CIMIS
+84,Browns Valley,Marysville,Yuba,North Central Region Office,39.252561,-121.31567,286.5,940.0,1989-04-13,,True,True,Grass,CIMIS
+85,Hopland FS,Hopland,Mendocino,North Central Region Office,39.006747,-123.08012,353.6,1160.0,1989-09-23,2016-04-25,False,False,Bare,CIMIS
+86,Lindcove,Lindcove,Tulare,South Central Region Office,36.3605,-119.05935,146.3,480.0,1989-05-31,2020-12-03,False,False,Grass,CIMIS
+87,Meloland,El Centro,Imperial,Southern Region Office,32.806183,-115.44626,-15.2,-50.0,1989-12-12,,True,True,Grass,CIMIS
+88,Cuyama,Cuyama,Santa Barbara,Southern Region Office,34.942525,-119.6738,698.0,2290.0,1989-05-20,,True,False,Grass,CIMIS
+89,Salinas South,Salinas,Monterey,South Central Region Office,36.609444,-121.5293,36.6,120.0,1992-09-05,2012-09-25,False,True,Grass,CIMIS
+90,Alturas,Alturas,Modoc,Northern Region Office,41.438214,-120.48031,1342.6,4405.0,1989-04-23,,True,True,Grass,CIMIS
+91,Tulelake FS,Tulelake,Siskiyou,Northern Region Office,41.958869,-121.47237,1229.9,4035.0,1989-04-12,2035-12-31,True,True,Grass,CIMIS
+92,Kesterson,Gustine,Merced,South Central Region Office,37.231861,-120.88082,22.9,75.0,1989-10-13,2021-10-11,False,False,Grass,CIMIS
+93,Lamont,Lamont,Kern,South Central Region Office,35.286667,-118.92861,116.4,382.0,1990-02-04,1994-10-03,False,True,Grass,CIMIS
+94,Goleta Foothills,Goleta,Santa Barbara,Southern Region Office,34.471333,-119.86929,195.1,640.0,1990-07-07,2016-07-18,False,True,Grass,CIMIS
+95,Watsonville,Watsonville,Santa Cruz,South Central Region Office,36.886111,-121.80889,30.5,100.0,1989-09-13,1995-07-24,False,True,Grass,CIMIS
+96,Woodside,Woodside,San Mateo,North Central Region Office,37.453661,-122.2817,170.7,560.0,1990-10-31,1994-01-24,False,True,Grass,CIMIS
+97,Port Hueneme,Port Hueneme,Ventura,Southern Region Office,34.173333,-119.2,5.5,18.0,1991-02-16,2000-07-31,False,True,Grass,CIMIS
+98,Ramona,Ramona,San Diego,Southern Region Office,33.049444,-116.93833,408.4,1340.0,1991-04-20,1998-05-28,False,True,Grass,CIMIS
+99,Santa Monica,Santa Monica,Los Angeles,Southern Region Office,34.044311,-118.47689,103.6,340.0,1992-12-11,2050-05-08,True,True,Grass,CIMIS
+100,Fremont,Fremont,Alameda,North Central Region Office,37.525853,-121.96758,12.2,40.0,1991-08-29,2000-06-19,False,True,Grass,CIMIS
+101,Piru,Piru,Ventura,Southern Region Office,34.375,-118.78889,195.1,640.0,1991-08-27,2005-02-20,False,True,Alfalfa,CIMIS
+102,El Dorado,Long Beach,Los Angeles,Southern Region Office,33.797222,-118.09389,5.2,17.0,1990-10-24,1999-10-20,False,True,Grass,CIMIS
+103,Windsor,Windsor,Sonoma,North Central Region Office,38.52665,-122.813758,28.0,92.0,1990-12-14,,True,True,Grass,CIMIS
+104,De Laveaga,Santa Cruz,Santa Cruz,South Central Region Office,36.997444,-121.99676,91.4,300.0,1990-09-28,,True,True,Grass,CIMIS
+105,Westlands,Tranquility,Fresno,South Central Region Office,36.634028,-120.38181,58.2,191.0,1992-04-17,,True,True,Grass,CIMIS
+106,Sanel Valley,Hopland,Mendocino,North Central Region Office,38.982581,-123.08928,160.0,525.0,1991-02-01,2050-07-27,True,True,Grass,CIMIS
+107,Santa Barbara,Santa Barbara,Santa Barbara,Southern Region Office,34.437353,-119.73742,76.2,250.0,1993-04-07,,True,True,Grass,CIMIS
+108,Gerber Dryland,Gerber,Tehama,Northern Region Office,40.042778,-122.16222,74.7,245.0,1991-03-11,1998-05-12,False,True,Bare,CIMIS
+109,Carneros,Napa,Napa,North Central Region Office,38.219503,-122.35496,1.5,5.0,1993-03-11,2022-01-13,False,False,Grass,CIMIS
+110,Newberry Springs,Dagget,San Bernardino,Southern Region Office,34.840556,-116.64167,588.0,1929.0,1992-02-21,1996-12-27,False,True,Grass,CIMIS
+111,Green Valley Road,Watsonville,Santa Cruz,South Central Region Office,36.943964,-121.76394,33.5,110.0,1992-05-29,2021-01-28,False,False,Grass,CIMIS
+112,San Ardo,San Lucas,Monterey,South Central Region Office,36.078889,-120.95778,114.0,374.0,1993-06-18,1995-03-13,False,True,Grass,CIMIS
+113,King City-Oasis Rd.,King City,Monterey,South Central Region Office,36.121083,-121.08457,164.6,540.0,1993-06-12,,True,True,Grass,CIMIS
+114,Arroyo Seco,Soledad,Monterey,South Central Region Office,36.347306,-121.29135,71.6,235.0,1993-06-18,,True,True,Grass,CIMIS
+115,Gonzales,Salinas,Monterey,South Central Region Office,36.50975,-121.51597,44.5,146.0,1993-06-12,1998-11-10,False,True,Grass,CIMIS
+116,Salinas North,Salinas,Monterey,South Central Region Office,36.716806,-121.69189,18.6,61.0,1993-06-18,,True,False,Grass,CIMIS
+117,Victorville,Victorville,San Bernardino,Southern Region Office,34.475914,-117.26351,880.9,2890.0,1994-02-01,,True,True,Grass,CIMIS
+118,Cathedral City,Cathedral City,Riverside,Southern Region Office,33.841292,-116.47873,119.5,392.0,1995-12-07,2014-10-09,False,True,Grass,CIMIS
+119,Putah Creek,Winters,Solano,North Central Region Office,38.492167,-122.00393,54.9,180.0,1993-08-21,1995-01-25,False,True,Grass,CIMIS
+120,Guadalupe,Guadalupe,Santa Barbara,Southern Region Office,34.962778,-120.54861,33.5,110.0,1993-12-24,2000-11-28,False,False,Grass,CIMIS
+121,Dixon,Dixon,Solano,North Central Region Office,38.415564,-121.78691,11.3,37.0,1994-09-20,2021-07-06,False,True,Grass,CIMIS
+122,Hastings Tract,Dixon,Solano,North Central Region Office,38.283075,-121.7906,3.0,10.0,1995-03-28,2009-06-10,False,True,Grass,CIMIS
+123,Suisun Valley,Cordelia,Solano,North Central Region Office,38.233972,-122.11699,10.7,35.0,1994-08-18,2010-07-11,False,True,Grass,CIMIS
+124,Panoche,Firebaugh,Fresno,South Central Region Office,36.890056,-120.73141,55.8,183.0,1995-07-27,,True,True,Grass,CIMIS
+125,Arvin-Edison,Arvin,Kern,South Central Region Office,35.205583,-118.77841,152.4,500.0,1995-03-22,,True,True,Grass,CIMIS
+126,San Benito,Hollister,San Benito,South Central Region Office,36.854833,-121.36275,103.6,340.0,1994-06-09,,True,True,Grass,CIMIS
+127,Salton Sea West,Salton City,Imperial,Southern Region Office,33.327703,-115.94484,-68.6,-225.0,1994-11-21,2012-09-16,False,False,Bare,CIMIS
+128,Salton Sea East,Niland,Imperial,Southern Region Office,33.220186,-115.58012,-68.9,-226.0,1994-11-17,2013-08-09,False,False,Bare,CIMIS
+129,Pajaro,Pajaro,Monterey,South Central Region Office,36.902778,-121.74193,19.8,65.0,1995-09-13,,True,True,Grass,CIMIS
+130,Temecula East,Temecula,Riverside,Southern Region Office,33.556389,-117.03694,457.2,1500.0,1995-07-01,1996-11-05,False,True,Grass,CIMIS
+131,Fair Oaks,Fair Oaks,Sacramento,North Central Region Office,38.649964,-121.21887,80.8,265.0,1997-04-18,,True,True,Grass,CIMIS
+132,Morgan Hill,Morgan Hill,Santa Clara,North Central Region Office,37.151533,-121.63632,117.3,385.0,1997-04-28,2008-05-01,False,True,Grass,CIMIS
+133,Glendale,Glendale,Los Angeles,Southern Region Office,34.196531,-118.2302,338.6,1111.0,1996-08-07,2015-01-05,False,True,Grass,CIMIS
+134,Barstow NE,Barstow,San Bernardino,Southern Region Office,34.884267,-116.97986,621.8,2040.0,1997-01-08,2013-10-30,False,True,Grass,CIMIS
+135,Blythe NE,Blythe,Riverside,Southern Region Office,33.662869,-114.55811,83.8,275.0,1997-01-16,,True,False,Grass,CIMIS
+136,Oasis,Oasis/Indio,Riverside,Southern Region Office,33.523694,-116.15575,3.7,12.0,1997-01-07,,True,True,Grass,CIMIS
+137,Temecula East II,Temecula,Riverside,Southern Region Office,33.558017,-117.03166,468.2,1536.0,1997-02-20,2011-09-20,False,True,Grass,CIMIS
+138,Famoso,Macfarland,Kern,South Central Region Office,35.603111,-119.21259,126.5,415.0,1997-04-09,2015-12-29,False,True,Grass,CIMIS
+139,Winters,Winters,Solano,North Central Region Office,38.501258,-121.97853,41.5,136.0,1998-06-15,,True,True,Grass,CIMIS
+140,Twitchell Island,Rio Vista,Sacramento,North Central Region Office,38.121739,-121.674455,0.0,0.0,1997-10-08,,True,True,Grass,CIMIS
+141,Mecca,Mecca,Riverside,Southern Region Office,33.536894,-115.9928,-54.9,-180.0,1998-05-05,2010-03-11,False,True,Grass,CIMIS
+142,Orange Cove,Orange Cove,Fresno,South Central Region Office,36.721083,-119.38903,137.2,450.0,1999-01-01,2023-01-06,False,False,Grass,CIMIS
+143,San Juan Valley,Hollister,San Benito,South Central Region Office,36.822861,-121.46787,74.7,245.0,1998-01-01,,True,False,Grass,CIMIS
+144,Petaluma East,Petaluma,Sonoma,North Central Region Office,38.266428,-122.61646,29.6,97.0,1999-08-25,,True,True,Grass,CIMIS
+145,Madera,Madera,Madera,South Central Region Office,37.016528,-120.18639,70.1,230.0,1998-05-13,2013-03-27,False,True,Grass,CIMIS
+146,Belridge,Lost Hills,Kern,South Central Region Office,35.505833,-119.69114,125.0,410.0,1998-10-09,,True,True,Grass,CIMIS
+147,Otay Lake,Chula Vista,San Diego,Southern Region Office,32.628208,-116.93928,176.8,580.0,1999-04-15,,True,True,Grass,CIMIS
+148,Merced,Merced,Merced,South Central Region Office,37.314139,-120.3867,61.0,200.0,1999-01-04,2024-04-09,False,True,Grass,CIMIS
+149,Oakland Foothills,Oakland,Alameda,North Central Region Office,37.780653,-122.18015,44.2,145.0,1999-03-25,2013-08-13,False,False,Grass,CIMIS
+150,Miramar,La Jolla,San Diego,Southern Region Office,32.885847,-117.14314,135.6,445.0,1999-04-23,,True,True,Grass,CIMIS
+151,Ripley,Blythe,Riverside,Southern Region Office,33.532222,-114.63389,76.5,251.0,1998-12-19,,True,True,Alfalfa,CIMIS
+152,Camarillo,Camarillo,Ventura,Southern Region Office,34.219386,-118.99244,39.6,130.0,2000-01-21,,True,True,Grass,CIMIS
+153,Escondido SPV,Escondido,San Diego,Southern Region Office,33.08105,-116.9757,118.9,390.0,1999-02-01,,True,True,Alfalfa,CIMIS
+154,Salton Sea North,North Shore,Riverside,Southern Region Office,33.503889,-115.91556,-61.0,-200.0,1998-10-15,2003-10-30,False,False,Bare,CIMIS
+155,Bryte (experimental),West Sacramento,Yolo,North Central Region Office,38.599158,-121.54041,12.2,40.0,1998-12-10,2022-09-06,False,False,Bare,CIMIS
+156,Oxnard,Oxnard,Ventura,Southern Region Office,34.233639,-119.19692,14.6,48.0,2001-10-12,2017-04-27,False,False,Grass,CIMIS
+157,Point San Pedro,San Rafael,Marin,North Central Region Office,37.995478,-122.467656,1.5,5.0,2002-10-11,,True,True,Grass,CIMIS
+158,Bennett Valley,Santa Rosa,Sonoma,North Central Region Office,38.419439,-122.65872,82.3,270.0,2000-10-01,,True,True,Grass,CIMIS
+159,Monrovia,Monrovia,Los Angeles,Southern Region Office,34.146372,-117.9858,181.4,595.0,1999-10-15,,True,False,Grass,CIMIS
+160,San Luis Obispo West,San Luis Obispo,San Luis Obispo,Southern Region Office,35.335261,-120.73588,86.9,285.0,2000-11-01,,True,True,Grass,CIMIS
+161,Patterson,Patterson,Stanislaus,South Central Region Office,37.438944,-121.13851,55.8,183.0,1999-08-23,2017-10-12,False,False,Grass,CIMIS
+162,Indio,Indio,Riverside,Southern Region Office,33.746111,-116.25778,12.2,40.0,1999-12-24,2006-02-26,False,True,Grass,CIMIS
+163,Atascadero,Atascadero,San Luis Obispo,Southern Region Office,35.472556,-120.64814,269.7,885.0,2000-11-21,,True,True,Grass,CIMIS
+164,Valley of the Moon,Sonoma,Sonoma,North Central Region Office,38.311144,-122.49866,47.2,155.0,2000-04-01,2001-12-18,False,True,Grass,CIMIS
+165,Sisquoc,Santa Maria,Santa Barbara,Southern Region Office,34.841878,-120.21274,163.4,536.0,2000-04-26,,True,True,Grass,CIMIS
+166,Lodi West,Lodi,San Joaquin,North Central Region Office,38.129933,-121.38659,7.6,25.0,2000-09-13,2015-03-20,False,True,Alfalfa,CIMIS
+167,Tracy,Tracy,San Joaquin,North Central Region Office,37.725881,-121.47552,25.0,82.0,2001-09-01,2017-05-31,False,True,Grass,CIMIS
+168,Denair,Denair,Stanislaus,South Central Region Office,37.553111,-120.77928,42.7,140.0,2002-08-28,2009-04-09,False,True,Grass,CIMIS
+169,Porterville,Porterville,Tulare,South Central Region Office,36.082056,-119.09342,121.9,400.0,2000-08-02,2023-03-17,False,True,Grass,CIMIS
+170,Concord,Concord,Contra Costa,North Central Region Office,38.015372,-122.02028,10.7,35.0,2001-04-06,,True,True,Grass,CIMIS
+171,Union City,Union City,Alameda,North Central Region Office,37.598758,-122.05323,4.9,16.0,2001-02-05,,True,True,Grass,CIMIS
+172,Lost Hills NW,Lost Hills,Kern,South Central Region Office,35.733222,-119.74255,68.6,225.0,2000-07-26,2003-07-01,False,False,Grass,CIMIS
+173,Torrey Pines,La Jolla,San Diego,Southern Region Office,32.901867,-117.25046,102.1,335.0,2000-11-29,,True,True,Grass,CIMIS
+174,Long Beach,Long Beach,Los Angeles,Southern Region Office,33.798697,-118.09479,5.2,17.0,2000-09-22,,True,True,Grass,CIMIS
+175,Palo Verde II,Palo Verde,Imperial,Southern Region Office,33.383697,-114.71921,70.1,230.0,2001-01-11,2025-03-26,False,False,Alfalfa,CIMIS
+176,La Quinta,Indio,Riverside,Southern Region Office,33.685556,-116.30556,12.8,42.0,2000-11-10,2006-09-26,False,True,Grass,CIMIS
+177,Watsonville West,Watsonville,Santa Cruz,South Central Region Office,36.9,-121.81311,64.6,212.0,2000-11-30,2006-03-22,False,True,Grass,CIMIS
+178,Moraga,Moraga,Contra Costa,North Central Region Office,37.837614,-122.14074,155.4,510.0,2002-02-27,,True,True,Grass,CIMIS
+179,Winchester,Winchester,Riverside,Southern Region Office,33.663325,-117.09338,495.6,1626.0,2002-02-07,,True,True,Grass,CIMIS
+180,Westmorland West,Westmorland,Imperial,Southern Region Office,33.124167,-115.80333,-66.4,-218.0,2001-11-08,2003-07-21,False,True,Alfalfa,CIMIS
+181,Westmorland North,Imperial,Imperial,Southern Region Office,33.078611,-115.66056,-61.0,-200.0,2004-04-01,2050-06-17,True,True,Alfalfa,CIMIS
+182,Delano,Delano,Tulare,South Central Region Office,35.833,-119.25596,91.4,300.0,2002-03-21,,True,True,Grass,CIMIS
+183,Owens Lake North,Keeler,Inyo,Southern Region Office,36.488611,-117.91944,1122.9,3684.0,2002-12-16,,True,False,Bare,CIMIS
+184,San Diego II,San Diego,San Diego,Southern Region Office,32.729578,-117.13934,114.9,377.0,2002-03-01,,True,True,Grass,CIMIS
+185,UC-Mex,Calexico,Imperial,Southern Region Office,32.411111,-115.19722,11.9,39.0,2002-01-18,2002-08-28,False,True,Grass,CIMIS
+186,UC-San Luis,Calexico,Imperial,Southern Region Office,32.492658,-114.82616,14.6,48.0,2002-04-16,2016-01-25,False,False,Grass,CIMIS
+187,Black Point,Novato,Marin,North Central Region Office,38.090933,-122.5267,0.3,1.0,2003-06-01,,True,True,Grass,CIMIS
+188,Madera II,Madera,Madera,South Central Region Office,37.02,-120.15,73.8,242.0,2013-03-27,2018-06-23,False,True,Grass,CIMIS
+189,Owens Lake South,Cartago,Inyo,Southern Region Office,36.358628,-117.94387,1122.3,3682.0,2003-04-01,,True,False,Grass,CIMIS
+190,Five Points South West,Five Points,Fresno,South Central Region Office,36.382028,-120.22985,82.3,270.0,2003-07-02,2019-12-04,False,False,Grass,CIMIS
+191,Pleasanton,Pleasanton,Alameda,North Central Region Office,37.663969,-121.88503,102.1,335.0,2004-05-01,,True,True,Grass,CIMIS
+192,Lake Arrowhead,Lake Arrowhead,San Bernardino,Southern Region Office,34.255942,-117.21814,1569.1,5148.0,2004-03-20,,True,True,Grass,CIMIS
+193,Pacific Grove,Pacific Grove,Monterey,South Central Region Office,36.633222,-121.93486,15.2,50.0,2011-10-26,,True,True,Grass,CIMIS
+194,Oakdale,Oakdale,Stanislaus,South Central Region Office,37.727194,-120.85086,50.3,165.0,2004-11-02,,True,True,Grass,CIMIS
+195,Auburn,Auburn,Placer,North Central Region Office,38.887603,-121.10291,285.0,935.0,2005-02-16,,True,True,Grass,CIMIS
+196,Esparto,Esparto,Yolo,North Central Region Office,38.691786,-122.01381,53.0,174.0,2005-04-15,2017-07-15,False,True,Grass,CIMIS
+197,Palmdale,Palmdale,Los Angeles,Southern Region Office,34.614981,-118.03249,777.2,2550.0,2005-04-06,,True,True,Alfalfa,CIMIS
+198,Santa Paula,Santa Paula,Ventura,Southern Region Office,34.324639,-119.10488,66.4,218.0,2005-03-30,2023-06-22,False,True,Grass,CIMIS
+199,Big Bear Lake,Big Bear Lake,San Bernardino,Southern Region Office,34.237419,-116.86571,2106.2,6910.0,2005-07-19,,True,True,Grass,CIMIS
+200,Indio 2,Indio,Riverside,Southern Region Office,33.748586,-116.2529,12.2,40.0,2006-05-16,,True,True,Grass,CIMIS
+201,UC-Andrade,Calexico,Imperial,Southern Region Office,32.674353,-115.04438,36.6,120.0,2006-01-01,2015-10-01,False,True,Grass,CIMIS
+202,Nipomo,Nipomo,San Luis Obispo,Southern Region Office,35.028281,-120.56003,77.7,255.0,2006-06-27,,True,True,Grass,CIMIS
+203,Alpaugh,Alpaugh,Tulare,South Central Region Office,35.862583,-119.50357,64.0,210.0,2006-07-11,2017-11-16,False,False,Grass,CIMIS
+204,Santa Clarita,Santa Clarita,Los Angeles,Southern Region Office,34.426361,-118.51758,429.8,1410.0,2006-12-04,,True,True,Grass,CIMIS
+205,Coalinga,Coalinga,Fresno,South Central Region Office,36.175833,-120.36027,222.5,730.0,2010-03-25,,True,False,Grass,CIMIS
+206,Denair II,Denair,Stanislaus,South Central Region Office,37.545869,-120.75453,45.7,150.0,2009-04-09,,True,True,Grass,CIMIS
+207,Borrego Springs,Borrego Springs,San Diego,Southern Region Office,33.268447,-116.36505,176.2,578.0,2008-01-04,,True,True,Grass,CIMIS
+208,La Quinta II,La Quinta,Riverside,Southern Region Office,33.678186,-116.27299,11.0,36.0,2007-02-06,,True,True,Grass,CIMIS
+209,Watsonville West II,Watsonville,Santa Cruz,South Central Region Office,36.913083,-121.82365,73.2,240.0,2007-06-13,,True,True,Grass,CIMIS
+210,Carmel,Carmel,Monterey,South Central Region Office,36.540889,-121.88196,22.9,75.0,2008-07-22,,True,True,Grass,CIMIS
+211,Gilroy,Gilroy,Santa Clara,North Central Region Office,37.015026,-121.53704,56.4,185.0,2009-09-01,,True,False,Grass,CIMIS
+212,Hastings Tract East,Dixon,Solano,North Central Region Office,38.278056,-121.74111,2.1,7.0,2009-10-20,,True,True,Grass,CIMIS
+213,El Cerrito,El Cerrito,Contra Costa,North Central Region Office,37.931539,-122.302714,181.7,596.0,2013-09-24,,True,True,Grass,CIMIS
+214,Salinas South II,Salinas,Monterey,South Central Region Office,36.625619,-121.537889,46.6,153.0,2013-05-17,,True,True,Grass,CIMIS
+215,Chatsworth,Chatsworth,Los Angeles,Southern Region Office,34.291331,-118.57004,468.2,1536.0,2011-09-01,,True,False,Grass,CIMIS
+216,Arleta,Arleta,Los Angeles,Southern Region Office,34.256111,-118.38278,298.7,980.0,2011-09-08,,True,False,Grass,CIMIS
+217,Moorpark,Moorpark,Ventura,Southern Region Office,34.269031,-118.849319,218.8,718.0,2014-07-03,,True,True,Grass,CIMIS
+218,Thermal South,Thermal,Riverside,Southern Region Office,33.595694,-116.15811,-45.7,-150.0,2010-01-30,,True,True,Grass,CIMIS
+219,West Hills,West Hills,Los Angeles,Southern Region Office,34.214197,-118.64477,282.2,926.0,2011-09-06,2024-03-13,False,True,Grass,CIMIS
+220,Palmdale Central,Palmdale,Los Angeles,Southern Region Office,34.592222,-118.1275,801.6,2630.0,2011-03-23,,True,True,Grass,CIMIS
+221,Cadiz Valley,Chambless,San Bernardino,Southern Region Office,34.513611,-115.51056,47.2,155.0,2010-11-01,2050-10-10,True,False,Grass,CIMIS
+222,Gerber South,Gerber,Tehama,Northern Region Office,40.040006,-122.154539,75.0,246.0,2014-08-13,,True,True,Grass,CIMIS
+223,North Hollywood,Universal City,Los Angeles,Southern Region Office,34.142911,-118.36632,173.7,570.0,2018-01-30,2050-05-28,True,True,Grass,CIMIS
+224,Shasta College,Redding,Shasta,Northern Region Office,40.63,-122.31,180.4,592.0,2013-01-01,,True,True,Grass,CIMIS
+225,Scott Valley,Fort Jones,Siskiyou,Northern Region Office,41.577778,-122.838125,833.0,2733.0,2015-04-01,,True,True,Grass,CIMIS
+226,Woodland,Woodland,Yolo,North Central Region Office,38.672722,-121.81172,25.0,82.0,2011-05-12,,True,True,Grass,CIMIS
+227,Plymouth,Plymouth,Amador,North Central Region Office,38.508333,-120.79972,463.3,1520.0,2010-11-01,,True,True,Grass,CIMIS
+228,Diamond Springs,Diamond Springs,El Dorado,North Central Region Office,38.636111,-120.79305,624.8,2050.0,2010-09-29,,True,True,Grass,CIMIS
+229,Laguna Seca,Monterey,Monterey,South Central Region Office,36.570111,-121.7865,97.5,320.0,2011-01-01,,True,True,Grass,CIMIS
+230,Santa Barbara II,Santa Barbara,Santa Barbara,Southern Region Office,34.405556,-119.715,134.1,440.0,2011-01-10,2018-01-23,False,False,Grass,CIMIS
+231,Lompoc,Lompoc,Santa Barbara,Southern Region Office,34.672222,-120.51306,16.8,55.0,2010-07-14,,True,False,Grass,CIMIS
+232,Santa Maria II,Santa Maria,Santa Barbara,Southern Region Office,34.913472,-120.46478,65.5,215.0,2011-04-01,,True,False,Grass,CIMIS
+233,Joshua Tree,Joshua Tree,San Bernardino,Southern Region Office,34.138147,-116.21319,756.8,2483.0,2011-12-01,,True,False,Bare,CIMIS
+234,Newberry Springs II,Newberry Springs,San Bernardino,Southern Region Office,34.883472,-116.810247,588.3,1930.0,2015-02-25,2020-11-29,False,True,Grass,CIMIS
+235,Verona,Nicolaus,Sutter,North Central Region Office,38.797944,-121.61136,7.3,24.0,2012-05-18,,True,True,Alfalfa,CIMIS
+236,Macdoel II,Macdoel,Siskiyou,Northern Region Office,41.802476,-121.996159,1300.0,4265.0,2015-04-16,,True,True,Grass,CIMIS
+237,Temecula East III,Temecula,Riverside,Southern Region Office,33.55281,-117.043302,466.3,1530.0,2012-11-01,,True,True,Grass,CIMIS
+238,Moreno Valley,Moreno Valley,Riverside,Southern Region Office,33.9,-117.17,488.9,1604.0,2013-04-19,2018-04-24,False,True,Grass,CIMIS
+239,Hemet,Hemet,Riverside,Southern Region Office,33.664747,-116.955121,538.9,1768.0,2015-01-22,,True,False,Grass,CIMIS
+240,Perris - Menifee,Perris,Riverside,Southern Region Office,33.76,-117.2,433.1,1421.0,2013-05-25,,True,True,Grass,CIMIS
+241,San Clemente,San Clemente,Orange,Southern Region Office,33.4625,-117.586111,68.3,224.0,2015-07-28,,True,True,Grass,CIMIS
+242,Staten Island,Walnut Grove,San Joaquin,North Central Region Office,38.192397,-121.510261,-3.0,-10.0,2015-11-05,,True,True,Grass,CIMIS
+243,Ryde,Walnut Grove,Sacramento,North Central Region Office,38.249622,-121.555528,-3.0,-10.0,2015-12-16,,True,True,Grass,CIMIS
+244,Biggs,Biggs,Butte,Northern Region Office,39.386632,-121.835278,21.9,72.0,2015-06-18,,True,True,Grass,CIMIS
+245,Coto de Caza,Coto de Caza,Orange,Southern Region Office,33.621667,-117.585278,257.9,846.0,2015-10-07,,True,True,Grass,CIMIS
+246,Markleeville,Markleeville,Alpine,North Central Region Office,38.773409,-119.79193,1681.6,5517.0,2014-06-13,,True,True,Grass,CIMIS
+247,Jersey Island,Oakley,Contra Costa,North Central Region Office,38.033386,-121.701247,-3.7,-12.0,2016-07-01,,True,True,Grass,CIMIS
+248,Holt,Stockton,San Joaquin,North Central Region Office,37.932072,-121.396661,-0.9,-3.0,2016-07-01,,True,True,Grass,CIMIS
+249,Ripon,Manteca,San Joaquin,North Central Region Office,37.755597,-121.266153,6.1,20.0,2016-07-01,2026-05-22,False,True,Grass,CIMIS
+250,Williams,Williams,Colusa,Northern Region Office,39.210667,-122.168889,21.0,69.0,2016-08-09,,True,True,Grass,CIMIS
+251,Highland,Highland,San Bernardino,Southern Region Office,34.112042,-117.1857,388.6,1275.0,2016-10-10,,True,True,Grass,CIMIS
+252,Soledad II,Soledad,Monterey,South Central Region Office,36.456728,-121.344388,65.2,214.0,2016-09-03,,True,True,Grass,CIMIS
+253,Pescadero,Pescadero,San Mateo,North Central Region Office,37.255333,-122.3708,14.3,47.0,2017-08-24,,True,True,Grass,CIMIS
+254,Oakland Metro,Oakland,Alameda,North Central Region Office,37.718167,-122.197111,4.3,14.0,2018-03-12,,True,True,Grass,CIMIS
+255,Chino,Chino,San Bernardino,Southern Region Office,33.98535,-117.656528,194.2,637.0,2018-03-08,2020-08-11,False,True,Alfalfa,CIMIS
+256,Lancaster,Lancaster,Los Angeles,Southern Region Office,34.759475,-117.991997,713.2,2340.0,2018-07-26,,True,True,Alfalfa,CIMIS
+257,Ridgecrest,Ridgecrest,Kern,Southern Region Office,35.661814,-117.640511,680.9,2234.0,2018-10-10,,True,True,Grass,CIMIS
+258,Lemon Cove,Lemon Cove,Tulare,South Central Region Office,36.376917,-119.037972,151.8,498.0,2018-11-15,,True,True,Grass,CIMIS
+259,Ferndale Plain,Ferndale,Humboldt,Northern Region Office,40.604467,-124.243186,6.4,21.0,2019-08-05,2050-12-30,True,True,Grass,CIMIS
+260,Montague,Montague,Siskiyou,Northern Region Office,41.798331,-122.463425,811.7,2663.0,2019-09-20,,True,True,Grass,CIMIS
+261,Gazelle,Gazelle,Siskiyou,Northern Region Office,41.533989,-122.532279,836.1,2743.0,2019-09-18,,True,True,Grass,CIMIS
+262,Linden,Linden,San Joaquin,North Central Region Office,38.065692,-121.071747,33.8,111.0,2020-02-26,,True,True,Grass,CIMIS
+263,Smith River,Crescent City,Del Norte,Northern Region Office,41.894592,-124.165043,6.7,22.0,2020-10-07,,True,True,Grass,CIMIS
+264,Sierra Valley Center,Portola,Plumas,Northern Region Office,39.777452,-120.273609,1492.9,4898.0,2020-10-28,,True,True,Grass,CIMIS
+265,Paso Robles,Paso Robles,San Luis Obispo,Southern Region Office,35.692266,-120.64855,232.9,764.0,2022-03-01,,True,True,Grass,CIMIS
+266,Shandon,Shandon,San Luis Obispo,Southern Region Office,35.643787,-120.403229,336.8,1105.0,2022-08-01,,True,True,Grass,CIMIS
+267,Johnstonville,Johnstonville,Lassen,Northern Region Office,40.364578,-120.559397,1253.3,4112.0,2022-04-27,,True,True,Grass,CIMIS
+268,Nubieber,Nubieber,Lassen,Northern Region Office,41.105901,-121.165701,1256.4,4122.0,2023-11-22,,True,True,Grass,CIMIS
+269,Los Banos II,Los Banos,Merced,South Central Region Office,37.108935,-120.797387,25.6,84.0,2025-10-20,,True,True,Grass,CIMIS
+270,Tulare COS,Tulare,Tulare,South Central Region Office,36.189399,-119.285207,86.9,285.0,2025-11-20,,True,True,Grass,CIMIS
+271,Pauma Valley,Pauma Valley,San Diego,Southern Region Office,33.299583,-116.979719,238.0,781.0,2025-04-10,,True,True,Grass,CIMIS
+272,Anderson,Anderson,Shasta,Northern Region Office,40.434911,-122.247425,133.5,438.0,2025-01-02,,True,True,Grass,CIMIS
+273,WildHawk,Elk Grove,Sacramento,North Central Region Office,38.479722,-121.314722,24.4,80.0,2024-11-01,,True,True,Grass,CIMIS
+275,Palm Springs,Palm Springs,Riverside,Southern Region Office,33.82741,-116.49707,123.7,406.0,2026-09-09,,True,True,Grass,CIMIS
+276,Cuyama North,New Cuyama,Santa Barbara,Southern Region Office,34.967222,-119.716389,613.0,2011.0,2026-01-21,,True,True,Grass,CIMIS
+277,Cuyama South,Ventucopa,Ventura,Southern Region Office,34.771111,-119.4275,965.3,3167.0,2026-01-22,,True,True,Grass,CIMIS

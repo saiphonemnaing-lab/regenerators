@@ -1,0 +1,1319 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-24",
+  "catalog": "C:\\Users\\mthng\\OneDrive\\Documents\\Default Project\\data\\cimis_stations.csv",
+  "catalog_station_count": 276,
+  "sites": [
+    {
+      "schema_version": "1.0",
+      "module": "station_selection",
+      "version": "0.1.0",
+      "generated_at": "2026-10-24T18:50:01+00:00",
+      "as_of": "2026-10-24",
+      "location": {
+        "name": "Chico almond demo",
+        "latitude": 39.7285,
+        "longitude": -121.8375,
+        "elevation_m": 60.0,
+        "elevation_ft": 196.9
+      },
+      "history_window": {
+        "start": "2023-10-25",
+        "end": "2026-10-24",
+        "days": 1096,
+        "years": 3
+      },
+      "config": {
+        "station_count": 3,
+        "alternate_count": 2,
+        "history_years": 3,
+        "min_history_coverage": 0.5,
+        "max_distance_km": 100.0,
+        "max_elevation_diff_m": 600.0,
+        "preferred_distance_km": 25.0,
+        "acceptable_distance_km": 50.0,
+        "preferred_elevation_diff_m": 100.0,
+        "acceptable_elevation_diff_m": 250.0,
+        "preferred_history_coverage": 0.95,
+        "acceptable_history_coverage": 0.8,
+        "distance_decay_km": 25.0,
+        "elevation_tolerance_m": 100.0,
+        "elevation_decay_m": 100.0,
+        "weight_distance": 0.4,
+        "weight_elevation": 0.4,
+        "weight_history": 0.2,
+        "min_station_separation_km": 8.0,
+        "lapse_rate_c_per_km": 6.5,
+        "prefer_active": true,
+        "include_inactive": true,
+        "require_hourly": false,
+        "require_daily": false,
+        "fail_if_fewer_than": 0
+      },
+      "summary": "3 stations selected for Chico almond demo: #244 Biggs (38.0 km S, 38 m lower); #222 Gerber South (43.9 km NW, 15 m higher); #250 Williams (64.2 km SSW, 39 m lower)",
+      "selected_station_ids": [
+        "244",
+        "222",
+        "250"
+      ],
+      "selected": [
+        {
+          "rank": 1,
+          "station": {
+            "id": "244",
+            "name": "Biggs",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 39.386632,
+            "longitude": -121.835278,
+            "elevation_m": 21.9,
+            "elevation_ft": 71.9,
+            "city": "Biggs",
+            "county": "Butte",
+            "regional_office": "Northern Region Office",
+            "connect_date": "2015-06-18",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 38.01,
+          "distance_mi": 23.62,
+          "bearing_deg": 179.7,
+          "bearing": "S",
+          "elevation_delta_m": -38.1,
+          "elevation_delta_ft": -125.0,
+          "lapse_correction_c": -0.25,
+          "score": 0.6874,
+          "score_components": {
+            "distance": 0.2186,
+            "elevation": 1.0,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "acceptable",
+          "rationale": "38.0 km S; 38 m lower than orchard; 100% of 3-year history window; similarity 0.69",
+          "warnings": []
+        },
+        {
+          "rank": 2,
+          "station": {
+            "id": "222",
+            "name": "Gerber South",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 40.040006,
+            "longitude": -122.154539,
+            "elevation_m": 75.0,
+            "elevation_ft": 246.1,
+            "city": "Gerber",
+            "county": "Tehama",
+            "regional_office": "Northern Region Office",
+            "connect_date": "2014-08-13",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 43.95,
+          "distance_mi": 27.31,
+          "bearing_deg": 322.1,
+          "bearing": "NW",
+          "elevation_delta_m": 15.0,
+          "elevation_delta_ft": 49.2,
+          "lapse_correction_c": 0.1,
+          "score": 0.669,
+          "score_components": {
+            "distance": 0.1724,
+            "elevation": 1.0,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "acceptable",
+          "rationale": "43.9 km NW; 15 m higher than orchard; 100% of 3-year history window; similarity 0.67",
+          "warnings": []
+        },
+        {
+          "rank": 3,
+          "station": {
+            "id": "250",
+            "name": "Williams",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 39.210667,
+            "longitude": -122.168889,
+            "elevation_m": 21.0,
+            "elevation_ft": 68.9,
+            "city": "Williams",
+            "county": "Colusa",
+            "regional_office": "Northern Region Office",
+            "connect_date": "2016-08-09",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 64.22,
+          "distance_mi": 39.91,
+          "bearing_deg": 206.4,
+          "bearing": "SSW",
+          "elevation_delta_m": -39.0,
+          "elevation_delta_ft": -128.0,
+          "lapse_correction_c": -0.25,
+          "score": 0.6306,
+          "score_components": {
+            "distance": 0.0766,
+            "elevation": 1.0,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "marginal",
+          "rationale": "64.2 km SSW; 39 m lower than orchard; 100% of 3-year history window; similarity 0.63",
+          "warnings": [
+            "distance 64.2 km exceeds the 50 km acceptable radius"
+          ]
+        }
+      ],
+      "alternates": [
+        {
+          "rank": 4,
+          "station": {
+            "id": "272",
+            "name": "Anderson",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 40.434911,
+            "longitude": -122.247425,
+            "elevation_m": 133.5,
+            "elevation_ft": 438.0,
+            "city": "Anderson",
+            "county": "Shasta",
+            "regional_office": "Northern Region Office",
+            "connect_date": "2025-01-02",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 85.94,
+          "distance_mi": 53.4,
+          "bearing_deg": 336.2,
+          "bearing": "NNW",
+          "elevation_delta_m": 73.5,
+          "elevation_delta_ft": 241.1,
+          "lapse_correction_c": 0.48,
+          "score": 0.5335,
+          "score_components": {
+            "distance": 0.0321,
+            "elevation": 1.0,
+            "history": 0.6031
+          },
+          "history_coverage": 0.6031,
+          "quality": "marginal",
+          "rationale": "85.9 km NNW; 74 m higher than orchard; 60% of 3-year history window; similarity 0.53",
+          "warnings": [
+            "distance 85.9 km exceeds the 50 km acceptable radius",
+            "station covers 60% of the 3-year history window (below 80%)"
+          ]
+        },
+        {
+          "rank": 5,
+          "station": {
+            "id": "84",
+            "name": "Browns Valley",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 39.252561,
+            "longitude": -121.31567,
+            "elevation_m": 286.5,
+            "elevation_ft": 940.0,
+            "city": "Marysville",
+            "county": "Yuba",
+            "regional_office": "North Central Region Office",
+            "connect_date": "1989-04-13",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 69.32,
+          "distance_mi": 43.08,
+          "bearing_deg": 139.6,
+          "bearing": "SE",
+          "elevation_delta_m": 226.5,
+          "elevation_delta_ft": 743.1,
+          "lapse_correction_c": 1.47,
+          "score": 0.3379,
+          "score_components": {
+            "distance": 0.0625,
+            "elevation": 0.2822,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "marginal",
+          "rationale": "69.3 km SE; 226 m higher than orchard; 100% of 3-year history window; similarity 0.34",
+          "warnings": [
+            "distance 69.3 km exceeds the 50 km acceptable radius",
+            "lapse correction is +1.5 C; temperature inversions can invalidate a simple elevation adjustment"
+          ]
+        }
+      ],
+      "warnings": [
+        "1 selected station(s) are marginal: 250 Williams."
+      ],
+      "diagnostics": {
+        "catalog_total": 276,
+        "catalog_active": 147,
+        "catalog_inactive": 129,
+        "catalog_active_unknown": 0,
+        "eligible": 6,
+        "selected_currently_active": 3,
+        "selected_spread": {
+          "max_pairwise_distance_km": 92.23,
+          "elevation_range_m": 54.0
+        },
+        "rejected": {
+          "distance_cap": 264,
+          "no_history_overlap": 122,
+          "elevation_cap": 30,
+          "history_below_min": 10
+        },
+        "separation_relaxed": false,
+        "nearest": [
+          {
+            "station_id": "12",
+            "name": "Durham",
+            "distance_km": 13.37,
+            "elevation_delta_m": -20.4,
+            "status": "eligible",
+            "reasons": []
+          },
+          {
+            "station_id": "61",
+            "name": "Orland",
+            "distance_km": 27.34,
+            "elevation_delta_m": 0.4,
+            "status": "excluded",
+            "reasons": [
+              {
+                "code": "no_history_overlap",
+                "message": "no overlap with the history window"
+              }
+            ]
+          },
+          {
+            "station_id": "14",
+            "name": "Orland",
+            "distance_km": 28.58,
+            "elevation_delta_m": 11.6,
+            "status": "excluded",
+            "reasons": [
+              {
+                "code": "no_history_overlap",
+                "message": "no overlap with the history window"
+              }
+            ]
+          },
+          {
+            "station_id": "244",
+            "name": "Biggs",
+            "distance_km": 38.01,
+            "elevation_delta_m": -38.1,
+            "status": "selected",
+            "reasons": []
+          },
+          {
+            "station_id": "222",
+            "name": "Gerber South",
+            "distance_km": 43.95,
+            "elevation_delta_m": 15.0,
+            "status": "selected",
+            "reasons": []
+          }
+        ]
+      },
+      "crop": "almond"
+    },
+    {
+      "schema_version": "1.0",
+      "module": "station_selection",
+      "version": "0.1.0",
+      "generated_at": "2026-10-24T18:50:01+00:00",
+      "as_of": "2026-10-24",
+      "location": {
+        "name": "Fresno stone fruit demo",
+        "latitude": 36.7468,
+        "longitude": -119.7726,
+        "elevation_m": 94.0,
+        "elevation_ft": 308.4
+      },
+      "history_window": {
+        "start": "2023-10-25",
+        "end": "2026-10-24",
+        "days": 1096,
+        "years": 3
+      },
+      "config": {
+        "station_count": 3,
+        "alternate_count": 2,
+        "history_years": 3,
+        "min_history_coverage": 0.5,
+        "max_distance_km": 100.0,
+        "max_elevation_diff_m": 600.0,
+        "preferred_distance_km": 25.0,
+        "acceptable_distance_km": 50.0,
+        "preferred_elevation_diff_m": 100.0,
+        "acceptable_elevation_diff_m": 250.0,
+        "preferred_history_coverage": 0.95,
+        "acceptable_history_coverage": 0.8,
+        "distance_decay_km": 25.0,
+        "elevation_tolerance_m": 100.0,
+        "elevation_decay_m": 100.0,
+        "weight_distance": 0.4,
+        "weight_elevation": 0.4,
+        "weight_history": 0.2,
+        "min_station_separation_km": 8.0,
+        "lapse_rate_c_per_km": 6.5,
+        "prefer_active": true,
+        "include_inactive": true,
+        "require_hourly": false,
+        "require_daily": false,
+        "fail_if_fewer_than": 0
+      },
+      "summary": "3 stations selected for Fresno stone fruit demo: #80 Fresno State (8.7 km NNE, 9 m higher); #39 Parlier (29.1 km SE, 9 m higher); #2 FivePoints (54.9 km SW, 7 m lower)",
+      "selected_station_ids": [
+        "80",
+        "39",
+        "2"
+      ],
+      "selected": [
+        {
+          "rank": 1,
+          "station": {
+            "id": "80",
+            "name": "Fresno State",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 36.820833,
+            "longitude": -119.74231,
+            "elevation_m": 103.3,
+            "elevation_ft": 338.9,
+            "city": "Fresno",
+            "county": "Fresno",
+            "regional_office": "South Central Region Office",
+            "connect_date": "1988-10-03",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 8.66,
+          "distance_mi": 5.38,
+          "bearing_deg": 18.1,
+          "bearing": "NNE",
+          "elevation_delta_m": 9.3,
+          "elevation_delta_ft": 30.5,
+          "lapse_correction_c": 0.06,
+          "score": 0.8829,
+          "score_components": {
+            "distance": 0.7072,
+            "elevation": 1.0,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "preferred",
+          "rationale": "8.7 km NNE; 9 m higher than orchard; 100% of 3-year history window; similarity 0.88",
+          "warnings": []
+        },
+        {
+          "rank": 2,
+          "station": {
+            "id": "39",
+            "name": "Parlier",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 36.597444,
+            "longitude": -119.50404,
+            "elevation_m": 102.7,
+            "elevation_ft": 336.9,
+            "city": "Parlier",
+            "county": "Fresno",
+            "regional_office": "South Central Region Office",
+            "connect_date": "1983-05-23",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 29.15,
+          "distance_mi": 18.11,
+          "bearing_deg": 124.7,
+          "bearing": "SE",
+          "elevation_delta_m": 8.7,
+          "elevation_delta_ft": 28.5,
+          "lapse_correction_c": 0.06,
+          "score": 0.7247,
+          "score_components": {
+            "distance": 0.3117,
+            "elevation": 1.0,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "acceptable",
+          "rationale": "29.1 km SE; 9 m higher than orchard; 100% of 3-year history window; similarity 0.72",
+          "warnings": []
+        },
+        {
+          "rank": 3,
+          "station": {
+            "id": "2",
+            "name": "FivePoints",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 36.336222,
+            "longitude": -120.11291,
+            "elevation_m": 86.9,
+            "elevation_ft": 285.1,
+            "city": "Five Points",
+            "county": "Fresno",
+            "regional_office": "South Central Region Office",
+            "connect_date": "1982-06-07",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 54.85,
+          "distance_mi": 34.08,
+          "bearing_deg": 213.8,
+          "bearing": "SW",
+          "elevation_delta_m": -7.1,
+          "elevation_delta_ft": -23.3,
+          "lapse_correction_c": -0.05,
+          "score": 0.6446,
+          "score_components": {
+            "distance": 0.1115,
+            "elevation": 1.0,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "marginal",
+          "rationale": "54.9 km SW; 7 m lower than orchard; 100% of 3-year history window; similarity 0.64",
+          "warnings": [
+            "distance 54.9 km exceeds the 50 km acceptable radius"
+          ]
+        }
+      ],
+      "alternates": [
+        {
+          "rank": 4,
+          "station": {
+            "id": "105",
+            "name": "Westlands",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 36.634028,
+            "longitude": -120.38181,
+            "elevation_m": 58.2,
+            "elevation_ft": 190.9,
+            "city": "Tranquility",
+            "county": "Fresno",
+            "regional_office": "South Central Region Office",
+            "connect_date": "1992-04-17",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 55.75,
+          "distance_mi": 34.64,
+          "bearing_deg": 257.2,
+          "bearing": "WSW",
+          "elevation_delta_m": -35.8,
+          "elevation_delta_ft": -117.5,
+          "lapse_correction_c": -0.23,
+          "score": 0.643,
+          "score_components": {
+            "distance": 0.1075,
+            "elevation": 1.0,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "marginal",
+          "rationale": "55.7 km WSW; 36 m lower than orchard; 100% of 3-year history window; similarity 0.64",
+          "warnings": [
+            "distance 55.7 km exceeds the 50 km acceptable radius"
+          ]
+        },
+        {
+          "rank": 5,
+          "station": {
+            "id": "15",
+            "name": "Stratford",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 36.157972,
+            "longitude": -119.85143,
+            "elevation_m": 58.8,
+            "elevation_ft": 192.9,
+            "city": "Stratford",
+            "county": "Kings",
+            "regional_office": "South Central Region Office",
+            "connect_date": "1982-10-29",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 65.85,
+          "distance_mi": 40.92,
+          "bearing_deg": 186.2,
+          "bearing": "S",
+          "elevation_delta_m": -35.2,
+          "elevation_delta_ft": -115.5,
+          "lapse_correction_c": -0.23,
+          "score": 0.6287,
+          "score_components": {
+            "distance": 0.0718,
+            "elevation": 1.0,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "marginal",
+          "rationale": "65.9 km S; 35 m lower than orchard; 100% of 3-year history window; similarity 0.63",
+          "warnings": [
+            "distance 65.9 km exceeds the 50 km acceptable radius"
+          ]
+        }
+      ],
+      "warnings": [
+        "1 selected station(s) are marginal: 2 FivePoints."
+      ],
+      "diagnostics": {
+        "catalog_total": 276,
+        "catalog_active": 147,
+        "catalog_inactive": 129,
+        "catalog_active_unknown": 0,
+        "eligible": 9,
+        "selected_currently_active": 3,
+        "selected_spread": {
+          "max_pairwise_distance_km": 63.24,
+          "elevation_range_m": 16.4
+        },
+        "rejected": {
+          "no_history_overlap": 122,
+          "distance_cap": 250,
+          "elevation_cap": 28,
+          "history_below_min": 10
+        },
+        "separation_relaxed": false,
+        "nearest": [
+          {
+            "station_id": "1",
+            "name": "Fresno/F.S.U. USDA",
+            "distance_km": 8.36,
+            "elevation_delta_m": 9.6,
+            "status": "excluded",
+            "reasons": [
+              {
+                "code": "no_history_overlap",
+                "message": "no overlap with the history window"
+              }
+            ]
+          },
+          {
+            "station_id": "80",
+            "name": "Fresno State",
+            "distance_km": 8.66,
+            "elevation_delta_m": 9.3,
+            "status": "selected",
+            "reasons": []
+          },
+          {
+            "station_id": "22",
+            "name": "Caruthers",
+            "distance_km": 28.53,
+            "elevation_delta_m": -21.5,
+            "status": "excluded",
+            "reasons": [
+              {
+                "code": "no_history_overlap",
+                "message": "no overlap with the history window"
+              }
+            ]
+          },
+          {
+            "station_id": "39",
+            "name": "Parlier",
+            "distance_km": 29.15,
+            "elevation_delta_m": 8.7,
+            "status": "selected",
+            "reasons": []
+          },
+          {
+            "station_id": "142",
+            "name": "Orange Cove",
+            "distance_km": 34.3,
+            "elevation_delta_m": 43.2,
+            "status": "excluded",
+            "reasons": [
+              {
+                "code": "no_history_overlap",
+                "message": "no overlap with the history window"
+              }
+            ]
+          }
+        ]
+      },
+      "crop": "peach/nectarine"
+    },
+    {
+      "schema_version": "1.0",
+      "module": "station_selection",
+      "version": "0.1.0",
+      "generated_at": "2026-10-24T18:50:01+00:00",
+      "as_of": "2026-10-24",
+      "location": {
+        "name": "Santa Maria strawberry demo",
+        "latitude": 34.953,
+        "longitude": -120.4357,
+        "elevation_m": 66.0,
+        "elevation_ft": 216.5
+      },
+      "history_window": {
+        "start": "2023-10-25",
+        "end": "2026-10-24",
+        "days": 1096,
+        "years": 3
+      },
+      "config": {
+        "station_count": 3,
+        "alternate_count": 2,
+        "history_years": 3,
+        "min_history_coverage": 0.5,
+        "max_distance_km": 100.0,
+        "max_elevation_diff_m": 600.0,
+        "preferred_distance_km": 25.0,
+        "acceptable_distance_km": 50.0,
+        "preferred_elevation_diff_m": 100.0,
+        "acceptable_elevation_diff_m": 250.0,
+        "preferred_history_coverage": 0.95,
+        "acceptable_history_coverage": 0.8,
+        "distance_decay_km": 25.0,
+        "elevation_tolerance_m": 100.0,
+        "elevation_decay_m": 100.0,
+        "weight_distance": 0.4,
+        "weight_elevation": 0.4,
+        "weight_history": 0.2,
+        "min_station_separation_km": 8.0,
+        "lapse_rate_c_per_km": 6.5,
+        "prefer_active": true,
+        "include_inactive": true,
+        "require_hourly": false,
+        "require_daily": false,
+        "fail_if_fewer_than": 0
+      },
+      "summary": "3 stations selected for Santa Maria strawberry demo: #232 Santa Maria II (5.1 km SSW, same elevation); #202 Nipomo (14.1 km NW, 12 m higher); #165 Sisquoc (23.8 km ESE, 97 m higher)",
+      "selected_station_ids": [
+        "232",
+        "202",
+        "165"
+      ],
+      "selected": [
+        {
+          "rank": 1,
+          "station": {
+            "id": "232",
+            "name": "Santa Maria II",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 34.913472,
+            "longitude": -120.46478,
+            "elevation_m": 65.5,
+            "elevation_ft": 214.9,
+            "city": "Santa Maria",
+            "county": "Santa Barbara",
+            "regional_office": "Southern Region Office",
+            "connect_date": "2011-04-01",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": false
+            }
+          },
+          "distance_km": 5.13,
+          "distance_mi": 3.19,
+          "bearing_deg": 211.1,
+          "bearing": "SSW",
+          "elevation_delta_m": -0.5,
+          "elevation_delta_ft": -1.6,
+          "lapse_correction_c": -0.0,
+          "score": 0.9258,
+          "score_components": {
+            "distance": 0.8144,
+            "elevation": 1.0,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "preferred",
+          "rationale": "5.1 km SSW; same elevation as orchard; 100% of 3-year history window; similarity 0.93",
+          "warnings": []
+        },
+        {
+          "rank": 2,
+          "station": {
+            "id": "202",
+            "name": "Nipomo",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 35.028281,
+            "longitude": -120.56003,
+            "elevation_m": 77.7,
+            "elevation_ft": 254.9,
+            "city": "Nipomo",
+            "county": "San Luis Obispo",
+            "regional_office": "Southern Region Office",
+            "connect_date": "2006-06-27",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 14.08,
+          "distance_mi": 8.75,
+          "bearing_deg": 306.5,
+          "bearing": "NW",
+          "elevation_delta_m": 11.7,
+          "elevation_delta_ft": 38.4,
+          "lapse_correction_c": 0.08,
+          "score": 0.8277,
+          "score_components": {
+            "distance": 0.5693,
+            "elevation": 1.0,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "preferred",
+          "rationale": "14.1 km NW; 12 m higher than orchard; 100% of 3-year history window; similarity 0.83",
+          "warnings": []
+        },
+        {
+          "rank": 3,
+          "station": {
+            "id": "165",
+            "name": "Sisquoc",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 34.841878,
+            "longitude": -120.21274,
+            "elevation_m": 163.4,
+            "elevation_ft": 536.1,
+            "city": "Santa Maria",
+            "county": "Santa Barbara",
+            "regional_office": "Southern Region Office",
+            "connect_date": "2000-04-26",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 23.79,
+          "distance_mi": 14.78,
+          "bearing_deg": 121.2,
+          "bearing": "ESE",
+          "elevation_delta_m": 97.4,
+          "elevation_delta_ft": 319.6,
+          "lapse_correction_c": 0.63,
+          "score": 0.7544,
+          "score_components": {
+            "distance": 0.3861,
+            "elevation": 1.0,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "preferred",
+          "rationale": "23.8 km ESE; 97 m higher than orchard; 100% of 3-year history window; similarity 0.75",
+          "warnings": []
+        }
+      ],
+      "alternates": [
+        {
+          "rank": 4,
+          "station": {
+            "id": "231",
+            "name": "Lompoc",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 34.672222,
+            "longitude": -120.51306,
+            "elevation_m": 16.8,
+            "elevation_ft": 55.1,
+            "city": "Lompoc",
+            "county": "Santa Barbara",
+            "regional_office": "Southern Region Office",
+            "connect_date": "2010-07-14",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": false
+            }
+          },
+          "distance_km": 32.01,
+          "distance_mi": 19.89,
+          "bearing_deg": 192.8,
+          "bearing": "SSW",
+          "elevation_delta_m": -49.2,
+          "elevation_delta_ft": -161.4,
+          "lapse_correction_c": -0.32,
+          "score": 0.7112,
+          "score_components": {
+            "distance": 0.2779,
+            "elevation": 1.0,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "acceptable",
+          "rationale": "32.0 km SSW; 49 m lower than orchard; 100% of 3-year history window; similarity 0.71",
+          "warnings": []
+        },
+        {
+          "rank": 5,
+          "station": {
+            "id": "52",
+            "name": "San Luis Obispo",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 35.305442,
+            "longitude": -120.66178,
+            "elevation_m": 100.6,
+            "elevation_ft": 330.1,
+            "city": "San Luis Obispo",
+            "county": "San Luis Obispo",
+            "regional_office": "Southern Region Office",
+            "connect_date": "1986-04-02",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 44.26,
+          "distance_mi": 27.5,
+          "bearing_deg": 332.4,
+          "bearing": "NNW",
+          "elevation_delta_m": 34.6,
+          "elevation_delta_ft": 113.5,
+          "lapse_correction_c": 0.22,
+          "score": 0.6681,
+          "score_components": {
+            "distance": 0.1703,
+            "elevation": 1.0,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "acceptable",
+          "rationale": "44.3 km NNW; 35 m higher than orchard; 100% of 3-year history window; similarity 0.67",
+          "warnings": []
+        }
+      ],
+      "warnings": [],
+      "diagnostics": {
+        "catalog_total": 276,
+        "catalog_active": 147,
+        "catalog_inactive": 129,
+        "catalog_active_unknown": 0,
+        "eligible": 12,
+        "selected_currently_active": 3,
+        "selected_spread": {
+          "max_pairwise_distance_km": 37.84,
+          "elevation_range_m": 97.9
+        },
+        "rejected": {
+          "distance_cap": 253,
+          "no_history_overlap": 122,
+          "elevation_cap": 29,
+          "history_below_min": 10
+        },
+        "separation_relaxed": false,
+        "nearest": [
+          {
+            "station_id": "38",
+            "name": "Santa Maria",
+            "distance_km": 4.7,
+            "elevation_delta_m": 16.3,
+            "status": "excluded",
+            "reasons": [
+              {
+                "code": "no_history_overlap",
+                "message": "no overlap with the history window"
+              }
+            ]
+          },
+          {
+            "station_id": "232",
+            "name": "Santa Maria II",
+            "distance_km": 5.13,
+            "elevation_delta_m": -0.5,
+            "status": "selected",
+            "reasons": []
+          },
+          {
+            "station_id": "76",
+            "name": "Betteravia",
+            "distance_km": 7.64,
+            "elevation_delta_m": -17.2,
+            "status": "excluded",
+            "reasons": [
+              {
+                "code": "no_history_overlap",
+                "message": "no overlap with the history window"
+              }
+            ]
+          },
+          {
+            "station_id": "120",
+            "name": "Guadalupe",
+            "distance_km": 10.35,
+            "elevation_delta_m": -32.5,
+            "status": "excluded",
+            "reasons": [
+              {
+                "code": "no_history_overlap",
+                "message": "no overlap with the history window"
+              }
+            ]
+          },
+          {
+            "station_id": "202",
+            "name": "Nipomo",
+            "distance_km": 14.08,
+            "elevation_delta_m": 11.7,
+            "status": "selected",
+            "reasons": []
+          }
+        ]
+      },
+      "crop": "strawberry"
+    },
+    {
+      "schema_version": "1.0",
+      "module": "station_selection",
+      "version": "0.1.0",
+      "generated_at": "2026-10-24T18:50:01+00:00",
+      "as_of": "2026-10-24",
+      "location": {
+        "name": "Camino apple demo",
+        "latitude": 38.7385,
+        "longitude": -120.6697,
+        "elevation_m": 1000.0,
+        "elevation_ft": 3280.8
+      },
+      "history_window": {
+        "start": "2023-10-25",
+        "end": "2026-10-24",
+        "days": 1096,
+        "years": 3
+      },
+      "config": {
+        "station_count": 3,
+        "alternate_count": 2,
+        "history_years": 3,
+        "min_history_coverage": 0.5,
+        "max_distance_km": 100.0,
+        "max_elevation_diff_m": 600.0,
+        "preferred_distance_km": 25.0,
+        "acceptable_distance_km": 50.0,
+        "preferred_elevation_diff_m": 100.0,
+        "acceptable_elevation_diff_m": 250.0,
+        "preferred_history_coverage": 0.95,
+        "acceptable_history_coverage": 0.8,
+        "distance_decay_km": 25.0,
+        "elevation_tolerance_m": 100.0,
+        "elevation_decay_m": 100.0,
+        "weight_distance": 0.4,
+        "weight_elevation": 0.4,
+        "weight_history": 0.2,
+        "min_station_separation_km": 8.0,
+        "lapse_rate_c_per_km": 6.5,
+        "prefer_active": true,
+        "include_inactive": true,
+        "require_hourly": false,
+        "require_daily": false,
+        "fail_if_fewer_than": 0
+      },
+      "summary": "3 stations selected for Camino apple demo: #13 Camino (5.8 km WNW, 153 m lower); #228 Diamond Springs (15.6 km SW, 375 m lower); #227 Plymouth (28.0 km SSW, 537 m lower)",
+      "selected_station_ids": [
+        "13",
+        "228",
+        "227"
+      ],
+      "selected": [
+        {
+          "rank": 1,
+          "station": {
+            "id": "13",
+            "name": "Camino",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 38.753136,
+            "longitude": -120.7336,
+            "elevation_m": 847.3,
+            "elevation_ft": 2779.9,
+            "city": "Placerville",
+            "county": "El Dorado",
+            "regional_office": "North Central Region Office",
+            "connect_date": "1982-10-19",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 5.78,
+          "distance_mi": 3.59,
+          "bearing_deg": 286.4,
+          "bearing": "WNW",
+          "elevation_delta_m": -152.7,
+          "elevation_delta_ft": -501.0,
+          "lapse_correction_c": -0.99,
+          "score": 0.7536,
+          "score_components": {
+            "distance": 0.7937,
+            "elevation": 0.5904,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "acceptable",
+          "rationale": "5.8 km WNW; 153 m lower than orchard; 100% of 3-year history window; similarity 0.75",
+          "warnings": []
+        },
+        {
+          "rank": 2,
+          "station": {
+            "id": "228",
+            "name": "Diamond Springs",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 38.636111,
+            "longitude": -120.79305,
+            "elevation_m": 624.8,
+            "elevation_ft": 2049.9,
+            "city": "Diamond Springs",
+            "county": "El Dorado",
+            "regional_office": "North Central Region Office",
+            "connect_date": "2010-09-29",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 15.63,
+          "distance_mi": 9.71,
+          "bearing_deg": 223.3,
+          "bearing": "SW",
+          "elevation_delta_m": -375.2,
+          "elevation_delta_ft": -1231.0,
+          "lapse_correction_c": -2.44,
+          "score": 0.4396,
+          "score_components": {
+            "distance": 0.5352,
+            "elevation": 0.0638,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "marginal",
+          "rationale": "15.6 km SW; 375 m lower than orchard; 100% of 3-year history window; similarity 0.44",
+          "warnings": [
+            "elevation difference 375 m exceeds the 250 m acceptable band",
+            "lapse correction is -2.4 C; temperature inversions can invalidate a simple elevation adjustment"
+          ]
+        },
+        {
+          "rank": 3,
+          "station": {
+            "id": "227",
+            "name": "Plymouth",
+            "source": "CIMIS",
+            "type": "cimis",
+            "latitude": 38.508333,
+            "longitude": -120.79972,
+            "elevation_m": 463.3,
+            "elevation_ft": 1520.0,
+            "city": "Plymouth",
+            "county": "Amador",
+            "regional_office": "North Central Region Office",
+            "connect_date": "2010-11-01",
+            "disconnect_date": null,
+            "is_active": true,
+            "has_hourly": null,
+            "has_daily": null,
+            "metadata": {
+              "ground_cover": "Grass",
+              "is_eto_station": true
+            }
+          },
+          "distance_km": 27.98,
+          "distance_mi": 17.38,
+          "bearing_deg": 203.9,
+          "bearing": "SSW",
+          "elevation_delta_m": -536.7,
+          "elevation_delta_ft": -1760.8,
+          "lapse_correction_c": -3.49,
+          "score": 0.3357,
+          "score_components": {
+            "distance": 0.3266,
+            "elevation": 0.0127,
+            "history": 1.0
+          },
+          "history_coverage": 1.0,
+          "quality": "marginal",
+          "rationale": "28.0 km SSW; 537 m lower than orchard; 100% of 3-year history window; similarity 0.34",
+          "warnings": [
+            "elevation difference 537 m exceeds the 250 m acceptable band",
+            "lapse correction is -3.5 C; temperature inversions can invalidate a simple elevation adjustment"
+          ]
+        }
+      ],
+      "alternates": [],
+      "warnings": [
+        "2 selected station(s) are marginal: 228 Diamond Springs, 227 Plymouth."
+      ],
+      "diagnostics": {
+        "catalog_total": 276,
+        "catalog_active": 147,
+        "catalog_inactive": 129,
+        "catalog_active_unknown": 0,
+        "eligible": 3,
+        "selected_currently_active": 3,
+        "selected_spread": {
+          "max_pairwise_distance_km": 27.82,
+          "elevation_range_m": 384.0
+        },
+        "rejected": {
+          "distance_cap": 257,
+          "elevation_cap": 227,
+          "no_history_overlap": 122,
+          "history_below_min": 10
+        },
+        "separation_relaxed": false,
+        "nearest": [
+          {
+            "station_id": "13",
+            "name": "Camino",
+            "distance_km": 5.78,
+            "elevation_delta_m": -152.7,
+            "status": "selected",
+            "reasons": []
+          },
+          {
+            "station_id": "228",
+            "name": "Diamond Springs",
+            "distance_km": 15.63,
+            "elevation_delta_m": -375.2,
+            "status": "selected",
+            "reasons": []
+          },
+          {
+            "station_id": "81",
+            "name": "Shenandoah Valley",
+            "distance_km": 26.72,
+            "elevation_delta_m": -527.6,
+            "status": "excluded",
+            "reasons": [
+              {
+                "code": "no_history_overlap",
+                "message": "no overlap with the history window"
+              }
+            ]
+          },
+          {
+            "station_id": "227",
+            "name": "Plymouth",
+            "distance_km": 27.98,
+            "elevation_delta_m": -536.7,
+            "status": "selected",
+            "reasons": []
+          },
+          {
+            "station_id": "195",
+            "name": "Auburn",
+            "distance_km": 41.03,
+            "elevation_delta_m": -715.0,
+            "status": "excluded",
+            "reasons": [
+              {
+                "code": "elevation_cap",
+                "message": "beyond maximum elevation difference"
+              }
+            ]
+          }
+        ]
+      },
+      "crop": "apple/pear"
+    }
+  ]
+}
