@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.DS_Store
+hackathon/results/
+hackathon/processed/
+hackathon/predictions/
+hackathon/dashboard/.git/
+hackathon/dashboard/.openai/
