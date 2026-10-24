@@ -22,7 +22,9 @@ import requests
 
 log = logging.getLogger(__name__)
 
-CIMIS_URL = "https://et.water.ca.gov/api/data"
+# New CIMIS web-API endpoint (per the sample-request page on cimis.water.ca.gov).
+# The old https://et.water.ca.gov/api/data endpoint no longer returns JSON.
+CIMIS_URL = "https://et.water.ca.gov/StationWeb/GetDataByStationNumber"
 
 # CIMIS caps each request at ~1,740 (hourly) / ~1,750 (daily) records.
 # We request ONE station at a time and stay safely under the cap.
@@ -89,11 +91,12 @@ def fetch_weather_data(
             chunk_end = min(chunk_start + pd.Timedelta(days=days_per_chunk - 1), end)
             params = {
                 "appKey": api_key,
-                "targets": sid,
+                "stationNbrs": sid,
                 "startDate": chunk_start.strftime("%Y-%m-%d"),
                 "endDate": chunk_end.strftime("%Y-%m-%d"),
-                "dataItems": data_items,
+                "isHourly": "true" if frequency == "hourly" else "false",
                 "unitOfMeasure": "E",  # English units -> degrees F
+                "dataItems": data_items,
             }
             payload = _get_json(params, max_retries)
             if payload is None:
@@ -127,19 +130,27 @@ def _extract_station_ids(stations: pd.DataFrame, station_col: Optional[str]) -> 
 
 def _get_json(params: dict, max_retries: int) -> Optional[dict]:
     """GET with a minimal retry on transient errors. Returns None on failure."""
+    sid = params.get("stationNbrs")
     for attempt in range(max_retries + 1):
         try:
             r = requests.get(CIMIS_URL, params=params, headers={"Accept": "application/json"}, timeout=60)
-            if r.status_code == 200:
-                return r.json()
-            if r.status_code in (429, 500, 502, 503, 504):
-                time.sleep(2 ** attempt)
-                continue
-            log.warning("CIMIS HTTP %s for station %s: %s", r.status_code, params["targets"], r.text[:200])
-            return None
-        except (requests.RequestException, ValueError) as e:
-            log.warning("CIMIS request error (attempt %d): %s", attempt + 1, e)
+        except requests.RequestException as e:
+            log.warning("CIMIS request error for station %s (attempt %d): %s", sid, attempt + 1, e)
             time.sleep(2 ** attempt)
+            continue
+        if r.status_code in (429, 500, 502, 503, 504):
+            time.sleep(2 ** attempt)
+            continue
+        if r.status_code != 200:
+            log.warning("CIMIS HTTP %s for station %s: %s", r.status_code, sid, r.text[:300])
+            return None
+        try:
+            return r.json()
+        except ValueError:
+            # A 200 that isn't JSON (e.g. an HTML page) won't fix itself on retry.
+            log.warning("CIMIS returned non-JSON for station %s (Content-Type %s): %r",
+                        sid, r.headers.get("Content-Type"), r.text[:300])
+            return None
     return None
 
 
