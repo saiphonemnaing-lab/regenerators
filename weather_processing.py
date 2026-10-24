@@ -106,7 +106,12 @@ def fetch_weather_data(
     if failed:
         log.warning("%d request chunk(s) failed and were skipped: %s", len(failed), failed)
 
-    return _build_frame(rows, frequency, bad_qc_flags)
+    out = _build_frame(rows, frequency, bad_qc_flags)
+    # CIMIS station numbers are integers; return ints so the table merges
+    # cleanly with Member 1's station_id column (int64 in their output).
+    if not out.empty and out["station_id"].str.fullmatch(r"\d+").all():
+        out["station_id"] = out["station_id"].astype("int64")
+    return out
 
 
 def _extract_station_ids(stations: pd.DataFrame, station_col: Optional[str]) -> list:

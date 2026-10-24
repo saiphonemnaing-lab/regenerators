@@ -37,7 +37,7 @@ import pandas as pd
 DATE_COL = "date"
 VALID_METRICS = ("chill", "gdd")
 VALUE_COL_CANDIDATES = {
-    "chill": ["chill", "chill_daily", "chill_portions", "chill_hours"],
+    "chill": ["chill", "chill_daily", "daily_chill", "chill_portions", "chill_hours"],
     "gdd": ["gdd", "gdd_daily"],
 }
 # Season starts chosen for this project (month-day).
@@ -76,8 +76,11 @@ def _daily_series(df: pd.DataFrame, metric: str, date_col: str,
     col = _resolve_value_col(df, metric, value_col)
     s = df[[date_col, col]].copy()
     s[date_col] = pd.to_datetime(s[date_col]).dt.normalize()
-    s = s.dropna(subset=[date_col]).drop_duplicates(subset=date_col, keep="last")
-    return s.set_index(date_col)[col].astype(float).sort_index()
+    s = s.dropna(subset=[date_col])
+    # Member 2 returns one row per station per day. Average across stations so
+    # multi-station input is blended instead of silently keeping one station.
+    # (NaN is skipped, so a day missing at one station uses the others.)
+    return s.groupby(date_col)[col].mean().astype(float).sort_index()
 
 
 def _season_start_date(season_start: str, ref_date: pd.Timestamp) -> pd.Timestamp:
