@@ -52,6 +52,8 @@ result = select_stations(
 
 print(result.station_ids)    # ['244', '222', '250']
 print(result.to_json())      # full selected-station metadata
+```
+
 
 CLI optionsOptionPurpose--lat, --lon, --elevation, --elevation-unit {m,ft}Orchard location--nameHuman-readable site name echoed in the output--catalogCSV or JSON station catalog (default: bundled CIMIS snapshot)--default-elevation-unit {m,ft}Required only for a catalog with an unlabelled elevation column--as-ofEnd of the historical window (default: today)--format {text,json}Output format--outputWrite output to a file--configJSON file of SelectionConfig overrides--count, --history-years, --max-distance-km, --max-elevation-diff-m, --min-separation-km, --min-history-coverageCommon threshold overrides--active-onlyExclude stations known to be inactive--require-hourly, --require-dailyExclude stations whose metadata says that data is unavailable--strictExit with code 3 if fewer than --count stations are foundWhy this is not just "nearest station"CIMIS stations can be tens of kilometres away, sit at a different elevation, or
 be in a different microclimate. In California, elevation drives both chill
